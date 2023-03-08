@@ -1,0 +1,36 @@
+.gallery {
+    display: flex;
+    margin: 24px 64px;
+}
+.galleries { 
+    flex: 1;
+}
+.astronaut {
+    border-radius: 30px;
+    margin: 12px 12px 0 0; 
+    width: 300px;
+}
+
+.card_header {
+    display: flex;
+    align-items: center;
+    margin: 0 24px;
+    border-bottom: 4px solid rgba(151, 71, 255, 0.3);
+}
+
+.header_text {
+    margin: 12px
+}
+.card_content {
+    display: flex;
+    flex-direction: column;
+}
+.content_text {
+    margin: 24px 0 12px;
+}
+.images {
+    border-radius: 10px;
+}
+.view_button {
+    justify-content: flex-end;
+}

@@ -1,0 +1,60 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 40px;
+    
+    position: absolute;
+    width: 100%;
+    height: 76px;
+    left: 0px;
+    bottom: 0px;
+    
+    color: #FFF;
+    background: #4E1C91;
+}
+
+.links {
+    flex: 1
+}
+.links a {
+    margin: 2rem;
+}
+
+.logo {
+    display: flex;
+    font-weight: 300;
+    align-items: center;
+    justify-content: center;
+}
+
+.nasa_footer {
+    align-self: center;
+    margin-left: 8px
+}
+
+.nasa_header {
+    align-self: center;
+    margin-left: 2rem;
+    font-size: 64px;
+}
+
+.headerLinks {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 12px;
+    padding: 32px 0 16px;
+    border-bottom: 4px solid #F0F0F0;
+}
+
+.headerActions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.headerActions img {
+    margin-right: 2rem;
+    margin-top: 12px;
+}
